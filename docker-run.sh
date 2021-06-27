@@ -1,0 +1,1 @@
+docker run --runtime nvidia --rm -it -p 9999:9999 -v $(pwd):/root kaggle-gpu-images /bin/bash
